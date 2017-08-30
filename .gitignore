@@ -1,4 +1,10 @@
-/bin/
+.classpath
+.project
+*.iml
+.idea/
 /target/
-
-.idea
+/.settings/
+/test-results/
+/test-output/
+/lib
+/target/

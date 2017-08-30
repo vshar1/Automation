@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4754812168,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Open vehicle-information website",
+        "description": "",
+        "id": "vehicle-information-features;open-vehicle-information-website",
+        "after": [
+          {
+            "result": {
+              "duration": 1188590456,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7394631899,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open vehicle information website",
+            "match": {
+              "location": "VehicleInformationStep.iOpenVehicleInformationWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1477068,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to vehicle enquiry page",
+            "match": {
+              "location": "VehicleInformationStep.iNavigateToVehicleEnquiryPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5811743711,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I can assert the vehicle details with csv file",
+            "match": {
+              "location": "VehicleInformationStep.iCanAssertTheVehicleDetailsWithCsvFile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Vehicle information features",
+    "description": "",
+    "id": "vehicle-information-features",
+    "keyword": "Feature",
+    "uri": "features/VehicleInformation.feature"
+  }
+]
